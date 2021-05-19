@@ -26,13 +26,31 @@ public class CharOccu {
 
         }
 
-        String res=""+count[len-1];
+       String res=""+count[len-1];
         for(int i=0;i<len-1;i++){
             res+=count[i];
         }
 
         System.out.println(res);
 
+        /* first iteration
+            i=0
+            cmp=Z
+            str.charAt(i+1)='o'
+            so o is not equal to Z
+            
+            Secnd iteration
+            Zo
+            h!=o
+            h!=Z
+
+            Third iteration
+            Zoh
+            o!=Z
+            o==o
+            count++
+            o!=h
+        */
         
 
     }
